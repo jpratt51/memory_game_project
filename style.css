@@ -1,0 +1,86 @@
+
+body {
+    background-color:peru;
+}
+
+#game div {
+    border-radius: 7%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 15%;
+    height: 90px;
+    width: 90px;
+    margin: 13.5px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+#game {
+    position: relative;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 480px;
+    width: 480px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+h1 {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 50px;
+margin: 20px;
+width: -moz-fit-content;
+width: fit-content;
+/* width; 200px; */
+/* padding: 20px; */
+position: relative;
+left: 40%;
+cursor: pointer;
+}
+
+.red {
+background-color: red;
+}
+.blue {
+background-color: blue;
+}
+.green {
+background-color: green;
+}
+.orange {
+background-color: orange;
+}
+.purple {
+background-color: purple;
+}
+.yellow {
+background-color: yellow;
+}
+.pink {
+background-color: pink;
+}
+.teal {
+background-color: teal;
+}
+.greyOut {
+background-color: rgba(0,0,0,.15);
+}
+
+#scoreboard {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+    width: 480px;
+    height: 25px;
+    left: 33%;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
